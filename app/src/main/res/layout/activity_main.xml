@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp"
+        tools:text="Android Widgets" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/click_me" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:src="@android:drawable/ic_media_play"
+        android:background="#00000000"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:text="@string/check_me"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mySwitch"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:text="@string/switch_me"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggleButton"
+        android:textOn="@string/on"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textOff="@string/off"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maleRadioButton"
+            android:text="@string/male"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/femaleRadioButton"
+            android:text="@string/female"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preferRadioButton"
+            android:text="@string/prefer_to_do_not_identify"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+</LinearLayout>

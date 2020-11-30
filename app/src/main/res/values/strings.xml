@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Widgets</string>
+    <string name="click_me">Click me</string>
+    <string name="check_me">Check Me</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="switch_me">Switch Me</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="prefer_to_do_not_identify">Prefer to do not identify</string>
+</resources>
